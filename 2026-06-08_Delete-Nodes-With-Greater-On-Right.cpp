@@ -1,3 +1,12 @@
+ * GFG POTD - 08 June 2026
+ * Problem: Delete Nodes with Greater on Right
+ * Link: https://www.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1
+ * 
+ * Approach: Reverse traversal, track running max, delete nodes smaller than max
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+
 class Solution {
   public:
     Node* reverse(Node* head){
